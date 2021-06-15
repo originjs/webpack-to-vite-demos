@@ -1,24 +1,24 @@
 # helloworld-vue2
+    Convert a vue2 helloworld to vite helloworld
+## install webpack-to-vite
 
-## Project setup
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+git clone https://github.com/originjs/webpack-to-vite.git
+cd webpack-to-vite
+npm install (yarn)
+npm run build (yarn build)
 ```
 
-### Lints and fixes files
+## download helloworld-vue2
+in the same parent directory of webpack-to-vite, run
+
 ```
-npm run lint
+git clone https://github.com/originjs/webpack-to-vite-demos.git
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## convert
+go to the parent directory of webpack-to-vite, run
+
+```
+node webpack-to-vite/bin/index --rootDir webpack-to-vite-demos/helloworld-vue2
+```
