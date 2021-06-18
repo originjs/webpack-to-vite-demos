@@ -17,8 +17,8 @@ git clone https://github.com/originjs/webpack-to-vite-demos.git
 ```
 
 ## convert
-go to the parent directory of webpack-to-vite, run
 
 ```
-node webpack-to-vite/bin/index --rootDir webpack-to-vite-demos/helloworld-vue3
+cd webpack-to-vite
+node webpack-to-vite/bin/index --rootDir webpack-to-vite-demos/helloworld-vue2
 ```
