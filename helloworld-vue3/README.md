@@ -20,5 +20,5 @@ git clone https://github.com/originjs/webpack-to-vite-demos.git
 
 ```
 cd webpack-to-vite
-node ./bin/index --rootDir webpack-to-vite-demos/helloworld-vue2
+node ./bin/index --rootDir webpack-to-vite-demos/helloworld-vue2 -t vue-cli
 ```
