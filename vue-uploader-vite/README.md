@@ -9,11 +9,11 @@ npm install (yarn)
 npm run build (yarn build)
 ```
 
-## download helloworld-wepack
+## download vue-uploader
 in the same parent directory of webpack-to-vite, run
 
 ```
-git clone https://github.com/originjs/webpack-to-vite-demos.git
+git clone https://github.com/simple-uploader/vue-uploader.git
 ```
 
 ## convert
